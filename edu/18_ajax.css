@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.card-container{        
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    gap: 10px;
+}
+.card{
+    padding: 10px;
+    /* background-color: #FFD8D8; */
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.card-img{
+    background-image: url("../img/건담3.jpg");    
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 80%; 
+}
