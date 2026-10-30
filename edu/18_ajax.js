@@ -13,7 +13,7 @@ form.addEventListener('submit', async (e)=>{
 
     try{
         const response = await axios.get(url);
-        // console.log(response);
+        // console.log(response.data);
         // <div class="card">
         //     <div class="card-img"></div>            
         //     <p class="card-text">1: 아아아아</p>                
